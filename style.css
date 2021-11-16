@@ -9,10 +9,10 @@ body {
   text-align: center;
 }
 header {
-  background: black;
+  background: rgb(21, 138, 146);
 }
 h1 {
-  color: white;
+  color: black;
   margin: 0;
   padding: 10px 0;
 }
@@ -40,6 +40,10 @@ h2 {
 }
 .question2 {
   grid-column: 3;
+}
+.question2 img {
+  width: 40px;
+  height: auto;
 }
 
 .highlight-answer {
@@ -86,4 +90,36 @@ h2 {
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+  background: rgb(21, 138, 146);
+  padding: 10px 0;
+}
+
+.profile-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.profile1 {
+  grid-column: 1;
+}
+.profile2 {
+  grid-column: 2;
+  font-size: 30px;
+}
+
+.profile-photo {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+.profile-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 15px 10px;
+}
+.tag {
+  background: rgba(255, 255, 255, 0.397);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px;
 }
