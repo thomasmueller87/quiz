@@ -1,0 +1,19 @@
+body {
+  background: skyblue;
+  margin: 0 auto;
+  text-align: center;
+}
+header {
+  background: rgb(21, 138, 146);
+}
+h1 {
+  color: black;
+  margin: 0;
+  padding: 10px 0;
+}
+h2 {
+  margin: 0;
+}
+main {
+  margin-top: 25px;
+}
