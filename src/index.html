@@ -4,80 +4,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="components/styles.css" />
     <title>nescire</title>
   </head>
   <body>
     <header><h1>nescire</h1></header>
 
     <main>
-      
-        <!--- Beign q-card-->
-        <section class="q-card">
-          <div class="q-card__header">
-            <div class="q-card__head1"><h2>Question #1</h2></div>
-            <div class="q-card__head2"><a href="#book"><img class="q-card__bookmark"src="icon/bookmark-line.svg" alt="bookmark"></a></div>
+      <!--- Beign q-card-->
+      <section class="q-card">
+        <div class="q-card__header">
+          <div class="q-card__head1"><h2>Question #1</h2></div>
+          <div class="q-card__head2">
+            <a href="#book"
+              ><img
+                class="q-card__bookmark"
+                src="./components/icon/bookmark-line.svg"
+                alt="bookmark"
+            /></a>
           </div>
-          <p class="q-card__question">
-            The use of an unsecured WIFI is a great risk for your safety. You
-            should always work with secured WIFI networks. Which WIFI encryption
-            does not exist?
+        </div>
+        <p class="q-card__question">
+          The use of an unsecured WIFI is a great risk for your safety. You
+          should always work with secured WIFI networks. Which WIFI encryption
+          is the most modern right now?
+        </p>
+        <details class="q-card__answer">
+          <summary>show answer</summary>
+          <p>
+            The most current encryption is
+            <span class="q-card__answer-highlight">WPA2</span>
           </p>
-          <details class="q-card__answer">
-            <summary>show answer</summary>
-            <p class="highlight-answer">
-              The correct answer is B.</p>
-              <p>XKEY does not exist. WEP and WPA do exist but 
-              should be avoided nowadays as they are not secure anymore.</p> 
-            </p>
-          </details>
-          <div class="q-card__grid-answers">
-            <div class="q-card__grid ">A: WPA</div>
-            <div class="q-card__grid ">B: XKEY</div>
-            <div class="q-card__grid q-card__grid--correct">C: WEP</div>
-            <div class="q-card__grid ">D: WPA2</div>
-           </div>
-
-        </section>
-        <!--- End q-card-->
-
-        <section class="q-card">
-            <div class="q-card__header">
-              <div class="q-card__head1"><h2>Question #2</h2></div>
-              <div class="q-card__head2"><a href="#book"><img class="q-card__bookmark"src="icon/bookmark-line.svg" alt="bookmark"></a></div>
-            </div>
-            <p class="q-card__question">
-                Which is a programming language?
-            </p>
-            <details>
-              <summary>show answer</summary>
-              <p class="highlight-answer">
-                The correct answer is C.</p>
-                <p>All other options are not a programming
-                    language.</p> 
-              </p>
-            </details>
-            <div class="q-card__grid-answers">
-              <div class="q-card__grid q-card__grid--hover A">A: MS-DOS</div>
-              <div class="q-card__grid q-card__grid--hover B">B: encrpyt</div>
-              <div class="q-card__grid q-card__grid--hover C">C: java</div>
-              <div class="q-card__grid q-card__grid--hover D">D: tenerife</div>
-             </div>
-  
-          </section>
-          <!--- End q-card-->
-
-      
+        </details>
+        <div class="q-card__grid-answers">
+          <div class="q-card__grid">Hint A</div>
+          <div class="q-card__grid">Hint B</div>
+          <div class="q-card__grid">Hint C</div>
+          <div class="q-card__grid">Hint D</div>
+        </div>
+      </section>
+      <!--- End q-card-->
     </main>
     <footer>
       <section class="nav-bar">
-                    
-          <div class="nav a"><a href="#"><img src="icon/home-2-fill.svg" alt="Quiz"></a></div>
-          <div class="nav b"><a href="bookmark.html"><img src="icon/bookmark-line.svg" alt="Bookmarks"></a></div>
-        <div class="nav c"><a href="create.html"><img src="icon/folder-add-line.svg" alt="Add"></a></div>
-        <div class="nav d"><a href="profile.html"><img src="icon/profile-line.svg" alt="Quiz"></a></div>
-          
-    </section>
+        <div class="nav a">
+          <a href="index.html"
+            ><img src="./components/icon/home-2-line.svg" alt=""
+          /></a>
+        </div>
+        <div class="nav b">
+          <a href="bookmark.html"
+            ><img src="./components/icon/bookmark-line.svg" alt="Bookmarks"
+          /></a>
+        </div>
+        <div class="nav c">
+          <a href="create.html"
+            ><img src="./components/icon/folder-add-line.svg" alt="Add"
+          /></a>
+        </div>
+        <div class="nav d">
+          <a href="profile.html"
+            ><img src="./components/icon/profile-line.svg" alt="Quiz"
+          /></a>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
