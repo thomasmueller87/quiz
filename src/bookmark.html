@@ -15,44 +15,61 @@
         <!--- Beign q-card-->
         <section class="q-card">
           <div class="q-card__header">
-            <div class="q-card__head1"><h2>Bookmarked #1</h2></div>
-            <div class="q-card__head2"><a href="#book"><img src="icon/bookmark-fill.svg" alt="bookmark"></a></div>
+            <div class="q-card__head1"><h2>Bookmark #1</h2></div>
+            <div class="q-card__head2">
+              <a href="#book"
+                ><img
+                  class="q-card__bookmark"
+                  src="./components/icon/bookmark-fill.svg"
+                  alt="bookmark"
+              /></a>
+            </div>
           </div>
           <p class="q-card__question">
             The use of an unsecured WIFI is a great risk for your safety. You
             should always work with secured WIFI networks. Which WIFI encryption
-            does not exist?
+            is the most modern right now?
           </p>
-          <details>
+          <details class="q-card__answer">
             <summary>show answer</summary>
-            <p class="highlight-answer">
-              The correct answer is B.</p>
-              <p>XKEY does not exist. WEP and WPA do exist but 
-              should be avoided nowadays as they are not secure anymore.</p> 
+            <p>
+              The most current encryption is
+              <span class="q-card__answer-highlight">WPA2</span>
             </p>
           </details>
           <div class="q-card__grid-answers">
-            <div class="q-card__grid q-card__grid--hover A">A: WPA</div>
-            <div class="q-card__grid q-card__grid--hover B">B: XKEY</div>
-            <div class="q-card__grid q-card__grid--hover C">C: WEP</div>
-            <div class="q-card__grid q-card__grid--hover D">D: WPA2</div>
-           </div>
-
+            <div class="q-card__grid">Hint A</div>
+            <div class="q-card__grid">Hint B</div>
+            <div class="q-card__grid">Hint C</div>
+            <div class="q-card__grid">Hint D</div>
+          </div>
         </section>
         <!--- End q-card-->
-
-
       </section>
     </main>
     <footer>
       <section class="nav-bar">
-                    
-        <div class="nav a"><a href="index.html"><img src="./components/icon/home-2-line.svg" alt=""></a></div>
-        <div class="nav b"><a href="bookmark.html"><img src="./components/icon/bookmark-line.svg" alt="Bookmarks"></a></div>
-      <div class="nav c"><a href="create.html"><img src="./components/icon/folder-add-line.svg" alt="Add"></a></div>
-      <div class="nav d"><a href="profile.html"><img src="./components/icon/profile-line.svg" alt="Quiz"></a></div>
-        
-  </section>
+        <div class="nav a">
+          <a href="index.html"
+            ><img src="./components/icon/home-2-line.svg" alt=""
+          /></a>
+        </div>
+        <div class="nav b">
+          <a href="bookmark.html"
+            ><img src="./components/icon/bookmark-line.svg" alt="Bookmarks"
+          /></a>
+        </div>
+        <div class="nav c">
+          <a href="create.html"
+            ><img src="./components/icon/folder-add-line.svg" alt="Add"
+          /></a>
+        </div>
+        <div class="nav d">
+          <a href="profile.html"
+            ><img src="./components/icon/profile-line.svg" alt="Quiz"
+          /></a>
+        </div>
+      </section>
     </footer>
   </body>
 </html>

@@ -1,12 +1,14 @@
 /* Resets and basic setup*/
 
 :root {
-  --primary: #e6beae;
-  --primary-light: #eee4e1;
-  --secondary: #b2967d;
-  --secondary-light: #e7d8c9;
+  --primary: #54be0c;
+  --primary-light: #a4df89;
+  --secondary: #c57c1d;
+  --secondary-light: #59c01488;
+  --border-box: black;
   --white: #ecf8f8;
   --black: #211103;
+  --card-hover: rgb(9, 255, 0);
 
   --ff-sans: sans-serif;
   --ff-serif: serif;
@@ -40,8 +42,8 @@ p {
 }
 
 body {
-  line-height: 1.5;
-  font-size: 1.25rem; /* var(--fs-400) */
+  line-height: 1.2;
+  font-size: 1.1rem; /* var(--fs-400) */
 }
 
 ul[class],
@@ -85,4 +87,24 @@ img {
   max-width: 40rem;
   padding: 2rem;
   margin: 0 auto;
+}
+
+header {
+  background: var(--primary);
+}
+
+h1 {
+  color: black;
+  margin: 0;
+  padding: 10px 0;
+}
+
+body {
+  background: var(--primary-light);
+  margin: 0 auto;
+  text-align: center;
+}
+
+main {
+  margin-top: 25px;
 }

@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-evenly;
-  background: rgb(21, 138, 146);
+  background: var(--primary);
   padding: 10px 0;
   position: fixed;
   bottom: 0;
