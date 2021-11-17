@@ -105,7 +105,7 @@ h2 {
 .q-card__profile-tag-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 15px 10px;
 }
 .q-card__profile-tag {
