@@ -1,0 +1,51 @@
+.q-card {
+  background: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 10px 10px 30px 10px;
+  gap: 10px;
+  border: 1px solid var(--border-box);
+  border-radius: 15px;
+  font-family: var(--ff-sans);
+  box-shadow: 5px 5px 10px;
+}
+.q-card__header {
+  display: grid;
+  grid-template-columns: 1fr 100px;
+}
+
+.q-card__head2 {
+  position: relative;
+}
+
+.q-card__bookmark {
+  position: absolute;
+  top: -1.5em;
+  right: 1em;
+}
+
+.q-card__answer-highlight {
+  font-weight: bold;
+}
+
+.q-card__grid-answers {
+  display: grid;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 50% 50%;
+  gap: 0.5em;
+  margin: 5px;
+}
+
+.q-card__grid {
+  border: solid 1px var(--border-box);
+  border-radius: 5px;
+  padding-left: 5px;
+  text-align: left;
+  background: var(--secondary-light);
+}
+
+.q-card__grid:hover {
+  background: var(--primary);
+}

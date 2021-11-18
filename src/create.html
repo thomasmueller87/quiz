@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="components/styles.css" />
     <title>nescire</title>
   </head>
   <body>
@@ -19,24 +19,39 @@
                    <form action="" method="get">
                        <label for="new-question">Write your question<br></label>
                        <textarea id="new-question" name="new-question" rows="5" cols="35">Please type your question here...</textarea><br>
-                   <label for="new-answer">Tell us the answer!</label>
+                   <label for="new-answer">Tell us the answer</label>
                    <textarea name="new-answer" id="new-answer" cols="35" rows="5"></textarea>
-                   <label for="new-tags">Enter answer options here<br> (divided by comma)</label>
+                   <label for="new-tags">Enter hints here<br> (divided by comma)</label>
                    <input type="text" id="new-tags" name="new-tags" placeholder="A: option1, B: option2, ... "><br>
                    <button>Submit question</button>
                     </form>
       
       </section>
     </main>
+ 
     <footer>
       <section class="nav-bar">
-                    
-          <div class="nav a"><a href="index.html"><img src="icon/home-2-line.svg" alt="Quiz"></a></div>
-          <div class="nav b"><a href="bookmark.html"><img src="icon/bookmark-line.svg" alt="Bookmarks"></a></div>
-        <div class="nav c"><a href="#"><img src="icon/folder-add-fill.svg" alt="Add"></a></div>
-        <div class="nav d"><a href="profile.html"><img src="icon/profile-line.svg" alt="Quiz"></a></div>
-          
-    </section>
+        <div class="nav">
+          <a href="index.html"
+            ><img class="nav__image" src="./components/icon/home-2-line.svg" alt=""
+          /></a>
+        </div>
+        <div class="nav">
+          <a href="bookmark.html"
+            ><img class="nav__image" src="./components/icon/bookmark-line.svg" alt="Bookmarks"
+          /></a>
+        </div>
+        <div class="nav">
+          <a href="create.html"
+            ><img class="nav__image" src="./components/icon/folder-add-line.svg" alt="Add"
+          /></a>
+        </div>
+        <div class="nav">
+          <a href="profile.html"
+            ><img class="nav__image" src="./components/icon/profile-line.svg" alt="Quiz"
+          /></a>
+        </div>
+      </section>
     </footer>
   </body>
 </html>
