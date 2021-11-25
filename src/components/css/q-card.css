@@ -26,6 +26,26 @@
   right: 1em;
 }
 
+.q-card__button {
+  width: 25%;
+  align-self: center;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px black;
+}
+
+.q-card__solution {
+  background: rgba(255, 255, 255, 0.303);
+  width: 80%;
+  align-self: center;
+  border: rgba(255, 255, 255, 0.509) 1px solid;
+  border-radius: 5px;
+}
+.q-card__solution--hidden {
+  display: none;
+}
+
 .q-card__answer-highlight {
   font-weight: bold;
 }

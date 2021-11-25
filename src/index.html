@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="components/styles.css" />
+    <script src="./components/index.js" defer></script>
     <title>nescire</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
             <a href="#book"
               ><img
                 class="q-card__bookmark"
-                src="./components/icon/bookmark-fill.svg"
+                src="./components/icon/bookmark-line.svg"
                 alt="bookmark"
             /></a>
           </div>
@@ -29,13 +30,11 @@
           should always work with secured WIFI networks. Which WIFI encryption
           is the most modern right now?
         </p>
-        <details class="q-card__answer">
-          <summary>show answer</summary>
-          <p>
-            The most current encryption is
-            <span class="q-card__answer-highlight">WPA2</span>
-          </p>
-        </details>
+        <button class="q-card__button">Show answer</button>
+        <p class="q-card__solution q-card__solution--hidden">
+          The answer is: WPA2
+        </p>
+
         <div class="q-card__grid-answers">
           <div class="q-card__grid">Hint A</div>
           <div class="q-card__grid">Hint B</div>
@@ -52,7 +51,7 @@
             <a href="#book"
               ><img
                 class="q-card__bookmark"
-                src="./components/icon/bookmark-fill.svg"
+                src="./components/icon/bookmark-line.svg"
                 alt="bookmark"
             /></a>
           </div>
@@ -63,14 +62,10 @@
           laudantium et perspiciatis, esse quod earum at provident unde omnis
           atque quos maxime. lorem20
         </p>
-        <details class="q-card__answer">
-          <summary>show answer</summary>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-            ad.
-            <span class="q-card__answer-highlight">LOREM</span>
-          </p>
-        </details>
+        <button class="q-card__button">Show answer</button>
+        <p class="q-card__solution q-card__solution--hidden">
+          The answer is: Lorem!
+        </p>
         <div class="q-card__grid-answers">
           <div class="q-card__grid">Hint A</div>
           <div class="q-card__grid">Hint B</div>
